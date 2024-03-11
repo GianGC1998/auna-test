@@ -10,11 +10,7 @@ const query = gql`
       }
       results {
         name
-        gender
-        image
-        origin {
-          id
-        }
+        // TODO: add properties
       }
     }
   }
