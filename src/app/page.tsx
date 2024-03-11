@@ -5,9 +5,6 @@ import createApolloClient from "../config/apolloCLient";
 const query = gql`
   query Characters {
     characters(page: 1) {
-      info {
-        count
-      }
       results {
         name
         // TODO: add properties
